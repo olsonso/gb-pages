@@ -1,43 +1,34 @@
 <section class="section-clients">
 
-  <h3 id="clients">Clients</h3>
+  <h3 id="clients" >Resume</h3>
+<!-- of course, you should move the inline CSS style to your stylesheet -->
+<!-- main container, width = 70% of page, centered -->
+<!-- <div id="contentBox" style="margin:5px auto; width:100% height:500px">
+<div style="float: left; width: 50%;"> 
+CDK Global (cdkglobal.com) CURRENT Portland, OR
+<ul> Full stack developer generating reports for automotive dealerships using Angular, JavaScript, D3, Mongo
+& Hive. Implemented real-time dashboard to represent dataflow from databases in the last 24 hours</ul>
+<ul>  Created API validation tool to guarantee validity of database transfer between database management
+systems</ul>
+<ul>  Practice fundamental software principles and software life cycles through testing, co-developing,
+debugging, project management, and innovation</ul>
+<ul>  Current leader for high school/college mentorship program for interns</ul></div>
 
-  <div class="clients-mobile-nav">
-    {% for client in site.data.settings.clients %}
-        <span class="client-button {% if forloop.first %}active-client{% endif %}"></span>
-    {% endfor %}
-  </div>
+<div style="float: right; width: 50%;">
+  
+Intel Ultimate Engineering Experience (intel.com) Summer 2013 Portland, OR
+<ul> Developed cross-platform web-based interactive food sorting game using C++, JavaScript, and HTML5 to teach grade school children healthy eating habits</ul>
+<ul>Worked closely getting feedback from consumers to ensure the needs of user</ul>
 
-  <div class="clients-belt">
-    {% for client in site.data.settings.clients %}
-      <div class="client-unit {% if forloop.first %}active-client{% endif %}">
 
-        <figure class="client-face">
-          <img src="assets/img/clients/{{ client.avatar }}" alt="client-face">
-          <figcaption>
-            <strong class="client-name">{{ client.name }}</strong>
-            <em class="client-title">{{ client.title }}</em>
-          </figcaption>
-        </figure>
+</div>
 
-        <div class="client-content">
-          <div class="client-quote-mark">{% include icons/icon-quote-mark.html %}</div>
-          {{ client.quote }}
-        </div>
-      </div>
-    {% endfor %}
+  <h3 id="clients"> </h3> -->
 
-  </div>
 
-  <div class="client-controls">
-    <div class="client-control-next">{% include icons/icon-next.html %}</div>
-    <div class="client-control-prev">{% include icons/icon-prev.html %}</div>
-  </div>
 
-  <div class="clients-logos">
-    {% for client in site.data.settings.clients %}
-        <img class="client-logo {% if forloop.first %}active-client{% endif %}" src="assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
-    {% endfor %}
-  </div>
+
+
+</div>
 
 </section>

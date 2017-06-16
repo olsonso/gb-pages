@@ -1,0 +1,35 @@
+Searching 250 files for "thumb.jpg"
+
+/Users/olsonso/porfolio/olsonso.github.io/_includes/work.html:
+   15        <label for="{{ project.folder }}">
+   16          <div class="thumb-unit" data-folder="{{ project.folder }}">
+   17:           <img src="assets/img/work/{{project.folder}}/website.jpg" alt="{{ project.name }}" />
+   18          </div>
+   19          <div class="thumb-overlay">
+
+/Users/olsonso/porfolio/olsonso.github.io/_site/index.html:
+   87        <label for="proj-1">
+   88          <div class="thumb-unit" data-folder="proj-1">
+   89:           <img src="assets/img/work/proj-1/website.jpg" alt="Website Design" />
+   90          </div>
+   91          <div class="thumb-overlay">
+   ..
+   96        <label for="proj-2">
+   97          <div class="thumb-unit" data-folder="proj-2">
+   98:           <img src="assets/img/work/proj-2/thumb.jpg" alt="Freelance photographer" />
+   99          </div>
+  100          <div class="thumb-overlay">
+  ...
+  105        <label for="proj-3">
+  106          <div class="thumb-unit" data-folder="proj-3">
+  107:           <img src="assets/img/work/proj-3/thumb.jpg" alt="Freelance Videographer" />
+  108          </div>
+  109          <div class="thumb-overlay">
+  ...
+  114        <label for="proj-4">
+  115          <div class="thumb-unit" data-folder="proj-4">
+  116:           <img src="assets/img/work/proj-4/thumb.jpg" alt="Web Developer" />
+  117          </div>
+  118          <div class="thumb-overlay">
+
+5 matches across 2 files

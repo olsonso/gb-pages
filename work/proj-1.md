@@ -1,10 +1,9 @@
 ---
-title:  FALL IN LOVE
+title:  WEBSITE DESIGN
 ---
 
-![FALL](assets/img/work/proj-1/IMG_7610.jpg)
-![FALL](assets/img/work/proj-1/IMG_7612.jpg)
+![WEBSITE](assets/img/work/proj-1/website.png)
 
 
-FALL IS THE BEST SEASON OF THE YEAR
+
 
